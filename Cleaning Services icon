@@ -1,0 +1,25 @@
+import { Broom } from "lucide-react";
+
+const CleaningServicesIcon = () => {
+  return (
+    <div
+      className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+      style={{
+        width: "310px",
+        height: "286px",
+        position: "absolute",
+        top: "390px",
+        left: "395px",
+        borderRadius: "10px",
+        borderWidth: "1px",
+      }}
+    >
+      <div className="bg-white p-6 rounded-lg shadow">
+        <Broom size={80} className="text-black" />
+      </div>
+      <p className="mt-4 text-lg font-semibold text-black text-center">Cleaning Services</p>
+    </div>
+  );
+};
+
+export default CleaningServicesIcon;
