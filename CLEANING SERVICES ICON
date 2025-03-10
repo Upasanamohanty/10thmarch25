@@ -1,0 +1,32 @@
+import { Wrench, Home, Broom, Bug, Iron, Truck, Heart, User, Key, PawPrint } from "lucide-react";
+
+const services = [
+  { icon: <Broom size={80} className="text-black" />, label: "Cleaning Services" },
+  { icon: <Bug size={80} className="text-black" />, label: "Pest Control & Disinfection Services" },
+  { icon: <Iron size={80} className="text-black" />, label: "Home Laundry Service" },
+  { icon: <Truck size={80} className="text-black" />, label: "Movers" },
+  { icon: <Heart size={80} className="text-black" />, label: "Home Health Care Services" },
+  { icon: <User size={80} className="text-black" />, label: "Home Beauty Service" },
+  { icon: <Key size={80} className="text-black" />, label: "Car Rental" },
+  { icon: <PawPrint size={80} className="text-black" />, label: "Home Pets Grooming Services" },
+  { icon: <Wrench size={80} className="text-black" />, label: "Automotive Service" }
+];
+
+const PropertyMaintenanceIcons = () => {
+  return (
+    <div className="grid grid-cols-3 gap-6 p-6">
+      {services.map((service, index) => (
+        <div
+          key={index}
+          className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+          style={{ width: "310px", height: "286px", borderRadius: "10px", borderWidth: "1px" }}
+        >
+          <div className="bg-white p-6 rounded-lg shadow">{service.icon}</div>
+          <p className="mt-4 text-lg font-semibold text-black text-center">{service.label}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default PropertyMaintenanceIcons;
