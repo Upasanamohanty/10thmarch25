@@ -1,0 +1,26 @@
+import { Car, Key } from "lucide-react";
+
+const CarRentalIcon = () => {
+  return (
+    <div
+      className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+      style={{
+        width: "310px",
+        height: "286px",
+        position: "absolute",
+        top: "390px",
+        left: "395px",
+        borderRadius: "10px",
+        borderWidth: "1px",
+      }}
+    >
+      <div className="bg-white p-6 rounded-lg shadow relative">
+        <Car size={80} className="text-black" />
+        <Key size={30} className="text-black absolute top-0 right-0" />
+      </div>
+      <p className="mt-4 text-lg font-semibold text-black text-center">Car Rental</p>
+    </div>
+  );
+};
+
+export default CarRentalIcon;
