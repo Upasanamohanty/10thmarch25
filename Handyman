@@ -1,0 +1,23 @@
+ {/* Handyman Icon */}
+      <div
+        className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+        style={{
+          width: "310px",
+          height: "286px",
+          position: "absolute",
+          top: "700px",
+          left: "1460px",
+          borderRadius: "10px",
+          borderWidth: "1px",
+        }}
+      >
+        <div className="bg-white p-6 rounded-lg shadow">
+          <Tool size={80} className="text-black" />
+        </div>
+        <p className="mt-4 text-lg font-semibold text-black text-center">Handyman</p>
+      </div>
+    </div>
+  );
+};
+
+export default MaintenanceIcons;
