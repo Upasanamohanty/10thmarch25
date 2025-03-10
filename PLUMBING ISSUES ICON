@@ -1,0 +1,151 @@
+import { Wrench, Plug, Droplet, Wind, Hammer, PaintBucket, Tools, Building, Tool } from "lucide-react";
+
+const PlumbingIssueIcons = () => {
+  return (
+    <div className="grid grid-cols-5 gap-6">
+{/* Plumbing Issues Icon */}
+      <div
+        className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+        style={{
+          width: 646;
+          height: 286;
+          position: "absolute",
+          top: 409px;
+          left: 60px;
+          border-radius: 10px;
+          border-width: 1px;
+
+        }}
+      >
+        <div className="bg-white p-6 rounded-lg shadow">
+          <Plug size={80} className="text-black" />
+        </div>
+        <p className="mt-4 text-lg font-semibold text-black text-center">Plumbing Issues
+          Fixing leaky faucets and pipes
+          Unclogging drains and toilets
+          Installing or replacing sinks, faucets, and
+          showerheads
+          Repairing or replacing toilets
+          Installing or repairing water heaters</p>
+      </div>
+
+ {/* Electrical Repair Icon */}
+      <div
+        className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+        style={{
+         width: 646px;
+         height: 286px;
+         position: "absolute";
+         top: 409px;
+         left: 734px;
+         border-radius: 10px;
+         border-width: 1px;
+
+
+        }}
+      >
+        <div className="bg-white p-6 rounded-lg shadow">
+          <Plug size={80} className="text-black" />
+        </div>
+        <p className="mt-4 text-lg font-semibold text-black text-center">Electrical Repairs
+        Fixing faulty switches and outlets
+        Replacing light fixtures and ceiling fans
+        Installing new electrical outlets and dimmers
+        Troubleshooting and repairing wiring issues
+        Mounting TVs and managing cables</p>
+      </div>
+
+ {/* carpentry and woodwork Icon */}
+      <div
+        className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+        style={{
+         width: 646px;
+         height: 286px;
+         position: "absolute";
+         top: 409px;
+         left: 734px;
+         border-radius: 10px;
+         border-width: 1px;
+        }}
+      >
+        <div className="bg-white p-6 rounded-lg shadow">
+          <Wrench size={80} className="text-black" />
+        </div>
+        <p className="mt-4 text-lg font-semibold text-black text-center">Carpentry & Woodwork
+        Repairing or installing doors and locks
+        Fixing or assembling furniture
+        Building or repairing cabinets and shelves
+        Installing curtain rods and blinds
+        Repairing wooden floors</p>
+       </div>
+
+ {/* Painting and wall repair Icon */}
+      <div
+        className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+        style={{
+         width: 646px;
+         height: 286px;
+         position: "absolute";
+         top: 409px;
+         left: 734px;
+         border-radius: 10px;
+         border-width: 1px;
+        }}
+      >
+        <div className="bg-white p-6 rounded-lg shadow">
+          <Wrench size={80} className="text-black" />
+       </div>
+        <p className="mt-4 text-lg font-semibold text-black text-center">Painting & Wall Repairs
+        Touch-up painting and full room painting
+        Patching holes and cracks in walls
+        Wallpaper installation or removal
+        Installing decorative wall panels</p>
+        </div>
+
+ {/* General Repairs & Maintenance Icon */}
+      <div
+        className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+        style={{
+         width: 646px;
+         height: 286px;
+         position: "absolute";
+         top: 409px;
+         left: 734px;
+         border-radius: 10px;
+         border-width: 1px;
+        }}
+      >
+        <div className="bg-white p-6 rounded-lg shadow">
+          <Wrench size={80} className="text-black" />
+       </div>
+        <p className="mt-4 text-lg font-semibold text-black text-center">General Repairs & Maintenance
+        Fixing loose or broken tiles
+        Repairing drywall damage
+        Replacing or repairing window screens
+        Lubricating and fixing squeaky doors
+        Weatherproofing windows and doors</p>
+        </div>
+
+ {/* Outdoor & Miscellaneous Repairs Icon */}
+      <div
+        className="flex flex-col items-center justify-center border border-gray-300 rounded-lg bg-white shadow-md p-6"
+        style={{
+         width: 646px;
+         height: 286px;
+         position: "absolute";
+         top: 409px;
+         left: 734px;
+         border-radius: 10px;
+         border-width: 1px;
+        }}
+      >
+        <div className="bg-white p-6 rounded-lg shadow">
+          <Wrench size={80} className="text-black" />
+       </div>
+        <p className="mt-4 text-lg font-semibold text-black text-center">Outdoor & Miscellaneous Repairs
+        Installing or repairing gates and fences
+        Assembling outdoor furniture
+        Fixing or replacing outdoor lighting
+        Minor landscaping and garden maintenance
+        Cleaning and repairing gutters</p>
+        </div>
