@@ -1,0 +1,45 @@
+Import React from "react";
+Import "./PlumbingIssue.css"; // Import CSS for styles
+Import image from "./your-image-path.jpg"; // Update with actual image path
+
+const PlumbingIssue = () => {
+ .container {
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.issue-image {
+  width: 646px;
+  height: 286px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  object-fit: cover;
+}
+return (
+    <div className="container">
+      <h2>Plumbing Issue</h2>
+      <p>
+        If you're facing electrical or plumbing issues, Fixing leaky faucets and pipes
+        Unclogging drains and toilets
+        Installing or replacing sinks, faucets, and
+        showerheads
+        Repairing or replacing toilets
+        Installing or repairing water heaters
+      </p>
+      <img src={image} alt="Checking Electrical Outlet" className="issue-image" />
+    </div>
+  );
+};
+
+export default PlumbingIssue;
